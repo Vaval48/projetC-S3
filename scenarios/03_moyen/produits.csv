@@ -1,0 +1,121 @@
+reference;nom;poids_kg;categorie;x;y;stock
+P0001;Micro-ondes eco;2.3;STANDARD;23;6;66
+P0002;Chaise luxe;119.4;VOLUMINEUX;11;10;8
+P0003;Batterie luxe;0.7;STANDARD;37;8;54
+P0004;Verre a pied compact;3.6;FRAGILE;16;2;7
+P0005;Miroir bois;4.2;FRAGILE;4;8;19
+P0006;Velo noir;26.8;VOLUMINEUX;28;6;18
+P0007;Livre noir;0.5;STANDARD;26;4;29
+P0008;Radiateur lot de 3;57.6;VOLUMINEUX;38;12;12
+P0009;Velo pliable;88.5;VOLUMINEUX;32;3;17
+P0010;Marteau rouge;1.7;STANDARD;14;2;44
+P0011;Montre noir;6.5;FRAGILE;28;3;13
+P0012;Jouet en bois eco;7.8;STANDARD;22;10;16
+P0013;Marteau XL;0.2;STANDARD;16;7;55
+P0014;Clavier mini;0.7;STANDARD;37;7;14
+P0015;Aspirateur mini;0.9;STANDARD;13;2;49
+P0016;Lampe pro;4.2;FRAGILE;2;7;14
+P0017;Aspirateur blanc;24.7;STANDARD;4;10;24
+P0018;Velo inox;87.2;VOLUMINEUX;28;6;8
+P0019;Batterie pro;6.4;STANDARD;5;9;41
+P0020;Clavier XL;5.7;STANDARD;14;5;41
+P0021;Clavier noir;3.5;STANDARD;38;6;20
+P0022;Sac a dos inox;0.2;STANDARD;16;7;53
+P0023;Oreiller bois;5;STANDARD;19;6;23
+P0024;Couette mini;19.2;STANDARD;5;6;25
+P0025;Ecran bleu;0.9;FRAGILE;32;3;11
+P0026;Bouteille standard;4.8;FRAGILE;4;10;24
+P0027;Lampe inox;2.6;FRAGILE;31;6;22
+P0028;Casque XL;6.5;STANDARD;26;8;22
+P0029;Chaussures pliable;0.5;STANDARD;20;12;60
+P0030;Montre luxe;5.9;FRAGILE;14;12;28
+P0031;Vase bleu;6.6;FRAGILE;28;6;22
+P0032;Casque bleu;5.8;STANDARD;11;11;47
+P0033;Verre a pied rouge;5.1;FRAGILE;35;12;6
+P0034;Rouleau de scotch eco;28.9;STANDARD;13;12;17
+P0035;Tapis noir;84.2;VOLUMINEUX;14;3;13
+P0036;Gourde pliable;13;STANDARD;10;6;31
+P0037;Imprimante compact;66.9;VOLUMINEUX;32;9;8
+P0038;Souris pliable;6.4;STANDARD;4;6;45
+P0039;Souris XL;25.8;STANDARD;29;4;24
+P0040;Boite de vis pliable;25.2;STANDARD;19;6;12
+P0041;Rouleau de scotch pliable;4.7;STANDARD;17;4;25
+P0042;Verre a pied pro;2.6;FRAGILE;29;3;7
+P0043;Machine a laver bleu;45.4;VOLUMINEUX;23;3;11
+P0044;Velo compact;119.4;VOLUMINEUX;37;9;1
+P0045;Carton de papier pro;0.9;STANDARD;16;9;25
+P0046;Vase lot de 3;7.1;FRAGILE;19;9;8
+P0047;Imprimante pliable;109.3;VOLUMINEUX;37;11;10
+P0048;Cadre photo bleu;1.4;FRAGILE;4;12;17
+P0049;Rouleau de scotch compact;6.6;STANDARD;19;8;29
+P0050;Tasse bois;0.1;STANDARD;2;6;45
+P0051;Valise bleu;2.7;STANDARD;38;9;48
+P0052;Bocal noir;3;FRAGILE;31;10;14
+P0053;Marteau blanc;0.2;STANDARD;5;7;32
+P0054;Marteau luxe;1.8;STANDARD;23;2;42
+P0055;Montre standard;7.3;FRAGILE;8;6;13
+P0056;Chaussures noir;0.2;STANDARD;34;7;26
+P0057;Refrigerateur rouge;110.8;VOLUMINEUX;25;4;2
+P0058;Chaise pliable;58.6;VOLUMINEUX;31;7;17
+P0059;Sac de terreau lot de 3;92.6;VOLUMINEUX;14;7;12
+P0060;Cadre photo eco;2.5;FRAGILE;4;10;6
+P0061;Tasse mini;0.8;STANDARD;20;6;54
+P0062;Aspirateur bois;3;STANDARD;38;6;37
+P0063;Casque mini;0.9;STANDARD;7;6;35
+P0064;Lampe luxe;3.2;FRAGILE;29;12;10
+P0065;Carton de papier standard;19.9;STANDARD;16;9;16
+P0066;Vase pro;0.9;FRAGILE;5;7;7
+P0067;Miroir standard;5.2;FRAGILE;34;10;4
+P0068;Sac de terreau bleu;28.4;VOLUMINEUX;28;10;8
+P0069;Valise pliable;7.2;STANDARD;23;11;28
+P0070;Aspirateur eco;9.6;STANDARD;10;4;27
+P0071;Chaussures compact;0.3;STANDARD;31;6;65
+P0072;Assiette rouge;5.2;FRAGILE;10;8;23
+P0073;Trottinette luxe;88.4;VOLUMINEUX;13;4;9
+P0074;Sac de terreau pro;55.7;VOLUMINEUX;23;6;15
+P0075;Jouet en bois bleu;2.8;STANDARD;38;6;28
+P0076;Machine a laver eco;72.4;VOLUMINEUX;23;2;10
+P0077;Ventilateur inox;31.5;STANDARD;25;10;17
+P0078;Casque lot de 3;3.9;STANDARD;28;2;48
+P0079;Sac a dos bois;2.2;STANDARD;38;7;32
+P0080;Gourde noir;0.7;STANDARD;29;6;48
+P0081;Perceuse inox;0.4;STANDARD;37;11;46
+P0082;Ventilateur rouge;2.9;STANDARD;20;2;39
+P0083;Jouet en bois XL;6.4;STANDARD;17;8;28
+P0084;Chaussures blanc;3;STANDARD;29;12;59
+P0085;Gourde compact;6;STANDARD;31;8;37
+P0086;Livre bleu;0.3;STANDARD;11;6;33
+P0087;Miroir verre;6.2;FRAGILE;14;8;11
+P0088;Radiateur noir;20.2;VOLUMINEUX;28;11;2
+P0089;Etagere verre;71.9;VOLUMINEUX;7;11;13
+P0090;Etagere bois;53.2;VOLUMINEUX;28;11;12
+P0091;Ecran standard;0.5;FRAGILE;28;2;7
+P0092;Micro-ondes noir;2.4;STANDARD;37;8;59
+P0093;Oreiller lot de 3;6.3;STANDARD;20;8;29
+P0094;Marteau inox;32.5;STANDARD;14;3;15
+P0095;Lampe eco;1;FRAGILE;22;11;26
+P0096;Miroir lot de 3;7.3;FRAGILE;5;12;14
+P0097;Vase pliable;1.6;FRAGILE;10;8;23
+P0098;Sac a dos XL;3;STANDARD;25;3;28
+P0099;Velo pro;56.1;VOLUMINEUX;11;5;18
+P0100;Ecran luxe;0.7;FRAGILE;28;2;25
+P0101;Machine a laver bois;31.9;VOLUMINEUX;29;10;11
+P0102;Perceuse noir;3.8;STANDARD;22;5;52
+P0103;Imprimante XL;58.8;VOLUMINEUX;32;6;17
+P0104;Gourde blanc;2.7;STANDARD;25;9;80
+P0105;Perceuse lot de 3;0.7;STANDARD;31;7;38
+P0106;Bocal pro;2.7;FRAGILE;5;10;23
+P0107;Perceuse eco;29.3;STANDARD;20;11;20
+P0108;Cable USB blanc;8;STANDARD;26;9;50
+P0109;Cable USB inox;23;STANDARD;38;5;19
+P0110;Souris verre;23.1;STANDARD;7;2;21
+P0111;Livre verre;0.7;STANDARD;10;7;29
+P0112;Cable USB pro;7.4;STANDARD;31;5;32
+P0113;Puzzle inox;0.4;STANDARD;13;3;40
+P0114;Ventilateur blanc;9.6;STANDARD;34;3;33
+P0115;Parfum mini;3.3;FRAGILE;22;7;24
+P0116;Pot de peinture inox;0.6;STANDARD;20;10;21
+P0117;Ventilateur bleu;2.6;STANDARD;2;10;46
+P0118;Chaussures standard;0.2;STANDARD;14;4;48
+P0119;Casque standard;1.8;STANDARD;13;2;38
+P0120;Parfum standard;0.9;FRAGILE;23;9;15

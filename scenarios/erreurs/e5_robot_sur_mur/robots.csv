@@ -1,0 +1,4 @@
+id;type;x;y;batterie
+R01;LEGER;1;4;100
+R02;STANDARD;8;1;80
+R03;LOURD;14;8;100

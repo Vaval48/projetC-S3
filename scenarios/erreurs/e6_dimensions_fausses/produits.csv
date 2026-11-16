@@ -1,0 +1,4 @@
+reference;nom;poids_kg;categorie;x;y;stock
+P0001;Boite de vis M6;0.5;STANDARD;2;2;120
+P0002;Vase en verre;1.2;FRAGILE;13;4;15
+P0003;Machine a laver;68;VOLUMINEUX;16;6;4

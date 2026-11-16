@@ -1,0 +1,31 @@
+reference;nom;poids_kg;categorie;x;y;stock
+P0001;Sac de terreau inox;115.5;VOLUMINEUX;4;6;4
+P0002;Velo luxe;47.7;VOLUMINEUX;5;3;0
+P0003;Refrigerateur verre;113.1;VOLUMINEUX;11;5;9
+P0004;Souris bois;10.7;STANDARD;11;2;14
+P0005;Clavier rouge;0.9;STANDARD;8;6;31
+P0006;Trottinette XL;104.7;VOLUMINEUX;8;3;4
+P0007;Carton de papier rouge;6.5;STANDARD;4;4;31
+P0008;Table basse eco;85.6;VOLUMINEUX;10;2;8
+P0009;Tasse noir;6.6;STANDARD;14;2;24
+P0010;Chaise mini;69.9;VOLUMINEUX;2;2;7
+P0011;Miroir rouge;6.4;FRAGILE;8;3;16
+P0012;Bouteille rouge;0.2;FRAGILE;11;5;11
+P0013;Montre blanc;2.4;FRAGILE;16;4;13
+P0014;Lampe inox;3.7;FRAGILE;10;6;11
+P0015;Jouet en bois rouge;30.9;STANDARD;16;2;20
+P0016;Machine a laver eco;24.8;VOLUMINEUX;17;5;6
+P0017;Pneu blanc;17.5;VOLUMINEUX;11;6;20
+P0018;Vase standard;4;FRAGILE;16;3;12
+P0019;Bouteille bois;2.2;FRAGILE;10;5;10
+P0020;Ventilateur bleu;8.6;STANDARD;5;2;5
+P0021;Vase mini;1.5;FRAGILE;13;4;9
+P0022;Montre eco;4.2;FRAGILE;4;6;3
+P0023;Cable USB eco;12.5;STANDARD;7;3;22
+P0024;Puzzle verre;0.8;STANDARD;16;2;22
+P0025;Cable USB standard;1.3;STANDARD;11;2;22
+P0026;Livre bleu;11.5;STANDARD;16;5;31
+P0027;Micro-ondes compact;1;STANDARD;5;6;25
+P0028;Radiateur luxe;68.7;VOLUMINEUX;8;5;4
+P0029;Bocal rouge;7.1;FRAGILE;2;5;12
+P0030;Bocal mini;7.4;FRAGILE;16;5;16
