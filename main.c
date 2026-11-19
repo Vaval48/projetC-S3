@@ -4,7 +4,6 @@
 #include "menus/menus.h"
 
 int main(){
-    FILE * carte = fopen("scenarios/01_exemple/carte.txt","r");
-    affichageCarte(carte);
+    menu();
     return 0;
 }
