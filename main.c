@@ -2,9 +2,12 @@
 #include <stdlib.h>
 #include "affichages/affichages.h"
 #include "menus/menus.h"
-#include "donnees/donnees.h"
+#include "donnees/robot/robot.h"
+#include "donnees/produit/produit.h"
 int main(){
     Robot * listeRobot = creationListeRobot(fopen("scenarios/01_exemple/robots.csv","r"));
+    Produit * listeProduit = creationListeProduit(fopen("scenarios/04_grand/produits.csv","r"));
     afficheListeRobot(listeRobot);
+    afficheListeProduit(listeProduit);
     return 0;
 }

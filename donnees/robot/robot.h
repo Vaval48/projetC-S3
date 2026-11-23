@@ -8,17 +8,6 @@ typedef struct ElementPile ElementPile;
 
 
 typedef enum{
-    MUR,
-    ETAGERE,
-    VERS_HAUT,
-    VERS_BAS,
-    VERS_GAUCHE,
-    VERS_DROITE,
-    STATION_PREPARATION,
-    STATION_CHARGE
-}TYPE_CASE;
-
-typedef enum{
     LEGER,
     STANDARD,
     LOURD
@@ -59,16 +48,6 @@ struct Robot{
     ElementPile * bac;
 };
 
-struct Produit{
-    int reference;
-    char * nom;
-    int poid;
-    CATEGORIE_PRODUIT categorie;
-    int Xetagere;
-    int Yetagere;
-    int stock;
-    TYPE_CASE casePrelev;
-};
 
 struct Commande{
     int id;
@@ -81,14 +60,6 @@ struct Commande{
     Commande * suivant;
 };
 
-struct ElementPile
-{
-  char reference[50];
-  int quantite;
-  int poid;
-  CATEGORIE_PRODUIT Produit;
-  ElementPile * suivant;
-};
 
 Robot * ajoutRobot(Robot * liste, const char * id, TYPE_ROBOT type, int x, int y, int batterie);
 Robot * creationListeRobot(FILE * robot);
