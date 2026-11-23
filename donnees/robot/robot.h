@@ -59,6 +59,17 @@ struct Robot{
     ElementPile * bac;
 };
 
+struct Produit{
+    int reference;
+    char * nom;
+    int poid;
+    CATEGORIE_PRODUIT categorie;
+    int Xetagere;
+    int Yetagere;
+    int stock;
+    TYPE_CASE casePrelev;
+};
+
 struct Commande{
     int id;
     int tickarrive;
@@ -68,6 +79,15 @@ struct Commande{
     ETAT_COMMANDE etat;
     int tick_fin;
     Commande * suivant;
+};
+
+struct ElementPile
+{
+  char reference[50];
+  int quantite;
+  int poid;
+  CATEGORIE_PRODUIT Produit;
+  ElementPile * suivant;
 };
 
 Robot * ajoutRobot(Robot * liste, const char * id, TYPE_ROBOT type, int x, int y, int batterie);
