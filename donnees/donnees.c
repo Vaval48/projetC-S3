@@ -3,8 +3,8 @@
 #include <string.h>
 #include "donnees.h"
 
-int convertirTypeRobot(const char * texte, TYPE_ROBOT * type){
-    if (strcmp(texte, "LEGER") == 0){
+int convertirTypeRobot(const char * texte, TYPE_ROBOT * type){ //va regarder le texte du fichier csv pour assigner le type du robot//
+    if (strcmp(texte, "LEGER") == 0){ // elle sert d'intermédiaire pour chnager le type du robot//
         *type = LEGER;
         return 1;
     }
@@ -16,10 +16,10 @@ int convertirTypeRobot(const char * texte, TYPE_ROBOT * type){
         *type = LOURD;
         return 1;
     }
-    return 0;   // type inconnu
+    return 0;
 }
 
-const char * nomTypeRobot(TYPE_ROBOT t){
+const char * nomTypeRobot(TYPE_ROBOT t){ //va lire le type du robot pour le renvoyer sous forme de texte pour par exemple l'affichage//
     switch (t){
         case LEGER:    return "léger";
         case STANDARD: return "standard";
@@ -28,7 +28,7 @@ const char * nomTypeRobot(TYPE_ROBOT t){
     }
 }
 
-Robot * ajoutRobot(Robot * liste, const char * id, TYPE_ROBOT type, int x, int y, int batterie){
+Robot * ajoutRobot(Robot * liste, const char * id, TYPE_ROBOT type, int x, int y, int batterie){//ajout classique d'un élément d'une liste chainée//
     Robot * nouveau = malloc(sizeof(Robot));
     if (nouveau == NULL){
         printf("erreur d'allocation\n");
