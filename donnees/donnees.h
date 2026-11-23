@@ -1,8 +1,11 @@
+#include <stdio.h>
 typedef struct Robot Robot;
 typedef struct Produit Produit;
 typedef struct Commande Commande;
 typedef struct Station Station;
 typedef struct Entrepot Entrepot;
+typedef struct ElementPile ElementPile;
+
 
 typedef enum{
     MUR,
@@ -30,19 +33,19 @@ typedef enum{
 }ETAT_ROBOT;
 
 typedef enum{
-    STANDARD,
+    STANDARD_PRODUIT,
     FRAGILE,
     VOLUMINEUX
 }CATEGORIE_PRODUIT;
 
 typedef enum{
-    STANDARD,
+    STANDARD_PRIORITE,
     EXPRESS
 }PRIORITE;
 
 typedef enum{
     A_VENIR,
-    EN_ATTENTE,
+    EN_ATTENTE_COMMANDE,
     EN_PREPARATION,
     TERMINEE,
     EN_RETARD,
@@ -51,14 +54,15 @@ typedef enum{
 
 
 struct Robot{
-    int id;
+    char id[10];
     TYPE_ROBOT type;
     ETAT_ROBOT etat;
     int x;
     int y;
     int batterie;
     int charge; //charge en kg (!= de batterie)
-
+    Robot * suivant;
+    ElementPile * bac;
 };
 
 struct Produit{
@@ -83,4 +87,16 @@ struct Commande{
     Commande * suivant;
 };
 
-//suites des structures à déclarer plus tard//
+struct ElementPile
+{
+  char reference[50];
+  int quantite;
+  int poid;
+  CATEGORIE_PRODUIT Produit;
+  ElementPile * suivant;
+};
+
+Robot * ajoutRobot(Robot * liste, const char * id, TYPE_ROBOT type, int x, int y, int batterie);
+Robot * creationListeRobot(FILE * robot);
+void afficheListeRobot(Robot * liste);
+int convertirTypeRobot(const char * texte, TYPE_ROBOT * type);
