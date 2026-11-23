@@ -33,12 +33,6 @@ typedef enum{
 }ETAT_ROBOT;
 
 typedef enum{
-    STANDARD_PRODUIT,
-    FRAGILE,
-    VOLUMINEUX
-}CATEGORIE_PRODUIT;
-
-typedef enum{
     STANDARD_PRIORITE,
     EXPRESS
 }PRIORITE;
@@ -65,17 +59,6 @@ struct Robot{
     ElementPile * bac;
 };
 
-struct Produit{
-    int reference;
-    char * nom;
-    int poid;
-    CATEGORIE_PRODUIT categorie;
-    int Xetagere;
-    int Yetagere;
-    int stock;
-    TYPE_CASE casePrelev;
-};
-
 struct Commande{
     int id;
     int tickarrive;
@@ -87,16 +70,8 @@ struct Commande{
     Commande * suivant;
 };
 
-struct ElementPile
-{
-  char reference[50];
-  int quantite;
-  int poid;
-  CATEGORIE_PRODUIT Produit;
-  ElementPile * suivant;
-};
-
 Robot * ajoutRobot(Robot * liste, const char * id, TYPE_ROBOT type, int x, int y, int batterie);
 Robot * creationListeRobot(FILE * robot);
 void afficheListeRobot(Robot * liste);
 int convertirTypeRobot(const char * texte, TYPE_ROBOT * type);
+const char * nomTypeRobot(TYPE_ROBOT t);

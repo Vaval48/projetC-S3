@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "donnees.h"
+#include "robot.h"
 
 int convertirTypeRobot(const char * texte, TYPE_ROBOT * type){ //va regarder le texte du fichier csv pour assigner le type du robot//
     if (strcmp(texte, "LEGER") == 0){ // elle sert d'intermédiaire pour chnager le type du robot//

@@ -3,7 +3,8 @@ CFLAGS = -Wall -Wextra -std=c11 -g
 
 EXEC = projetC
 
-SRC = main.c affichages/affichages.c menus/menus.c donnees/donnees.c
+SRC = main.c affichages/affichages.c menus/menus.c donnees/robot/robot.c donnees/produit/produit.c
+
 
 OBJ = $(SRC:.c=.o)
 
