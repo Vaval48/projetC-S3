@@ -3,3 +3,4 @@
     - Valentin Dubois
     - Baptiste Decome
     - Malo Ozimina
+    - Manon Brouquier
