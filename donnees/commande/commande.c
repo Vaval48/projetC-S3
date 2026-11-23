@@ -98,7 +98,7 @@ Commande *supprimerCommandeId(Commande *liste, int id){
     return liste;
 }
 
-void afficherListeCommandes(Commande liste){
+void afficherListeCommandes(Commande *liste){
     Commande *tmp = liste;
     while (tmp != NULL){
         printf("Commande ID: %d | Tick Arrive: %d | Priorité: %d | Echéance: %d | Station affectée : %d | Etat: %d |Tick fin: %d\n",
