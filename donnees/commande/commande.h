@@ -1,21 +1,9 @@
 #define COMMANDE_H
 
 #include <stdio.h>
-
+#include "donnees/case.h"
 typedef struct Commande Commande;
 typedef struct Station Station;
-
-typedef enum{
-    MUR,
-    ETAGERE,
-    VERS_HAUT,
-    VERS_BAS,
-    VERS_GAUCHE,
-    VERS_DROITE,
-    STATION_PREPARATION,
-    STATION_CHARGE
-}TYPE_CASE;
-
 
 typedef enum{
     A_VENIR,

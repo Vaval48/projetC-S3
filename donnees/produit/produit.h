@@ -1,22 +1,10 @@
 #include <stdio.h>
-
+#include "donnees/case.h"
 typedef enum {
     STANDARD_PRODUIT,
     FRAGILE,
     VOLUMINEUX
 } CATEGORIE_PRODUIT;
-
-typedef enum {
-    NON_DEFINI,
-    MUR,
-    ETAGERE,
-    VERS_HAUT,
-    VERS_BAS,
-    VERS_GAUCHE,
-    VERS_DROITE,
-    STATION_PREPARATION,
-    STATION_CHARGE
-} TYPE_CASE;
 
 typedef struct Produit {
     char reference[10];

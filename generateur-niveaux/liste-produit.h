@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char ListeNomProduit[100] = {
+char * ListeNomProduit[100] = {
     "Souris eco",
     "Machine a laver blanc",
     "Tapis inox",
