@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "carte.h"
+
 char * creationListeCarte(FILE * carte, int * longueur, int * largeur){
     if (carte == NULL){
         printf("Erreur : fichier de carte introuvable\n");
@@ -13,12 +14,12 @@ char * creationListeCarte(FILE * carte, int * longueur, int * largeur){
     }
 
     int c;
-    // on saute la ligne des dimensions//
+    // on saute la fin de la ligne des dimensions
     while ((c = fgetc(carte)) != '\n' && c != EOF) {
     }
 
-    int total = (*longueur + 1) * (*largeur);    // +1 par ligne pour le \n
-    char * tableau = malloc(total + 1);          // +1 pour le '\0' final
+    int total = (*longueur) * (*largeur);
+    char * tableau = malloc(total);
     if (tableau == NULL){
         printf("Erreur d'allocation de la carte\n");
         return NULL;
@@ -26,12 +27,9 @@ char * creationListeCarte(FILE * carte, int * longueur, int * largeur){
 
     int i = 0;
     while (i < total && (c = fgetc(carte)) != EOF){
-        tableau[i++] = c;
-    }
-
-    // dernière ligne sans \n dans le fichier : on le rajoute
-    if (i == total - 1){
-        tableau[i++] = '\n';
+        if (c != '\n' && c != '\r'){      // les fins de ligne ne sont pas stockées
+            tableau[i++] = (char) c;
+        }
     }
 
     if (i < total){
@@ -40,14 +38,23 @@ char * creationListeCarte(FILE * carte, int * longueur, int * largeur){
         return NULL;
     }
 
-    tableau[total] = '\0';
     return tableau;
 }
 
-void affichageCarte(char * carte){
+void affichageCarte(const char * carte, int longueur, int largeur){
     if (carte == NULL){
         printf("Aucune carte à afficher\n");
         return;
     }
-    printf("%s",carte);
+
+    for (int y = 0; y < largeur; y++){
+        for (int x = 0; x < longueur; x++){
+            printf("%c", carte[y * longueur + x]);
+        }
+        printf("\n");
+    }
+}
+
+int indiceCarte(int x, int y, int longueur){//pour placer les éléments plus rapidement sur la carte (c'est la conversion coordonnées x,y en un indice de tableau simple)//
+    return y * longueur + x;
 }

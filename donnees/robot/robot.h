@@ -1,3 +1,6 @@
+#ifndef ROBOT_H
+#define ROBOT_H
+
 #include <stdio.h>
 typedef struct Robot Robot;
 typedef struct Produit Produit;
@@ -38,3 +41,5 @@ Robot * ajoutRobot(Robot * liste, const char * id, TYPE_ROBOT type, int x, int y
 Robot * creationListeRobot(FILE * robot);
 void afficheListeRobot(Robot * liste);
 int convertirTypeRobot(const char * texte, TYPE_ROBOT * type);
+
+#endif
